@@ -30,8 +30,10 @@ public class GlobalCorsConfig {
         config.addAllowedMethod("POST");
         config.addAllowedMethod("DELETE");
         config.addAllowedMethod("PATCH");
+
         // 4）允许的头信息
         config.addAllowedHeader("*");
+
         //有效时长
         config.setMaxAge(3600L);
 
